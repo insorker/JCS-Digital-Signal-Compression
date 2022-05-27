@@ -1,0 +1,14 @@
+[
+    {
+        "arguments": [
+            "g++",
+            "-c",
+            "-I../wave/include",
+            "-o",
+            "test-in",
+            "readerDemo.cpp"
+        ],
+        "directory": "/mnt/d/diaoke/\u5927\u5b66/_\u5176\u4ed6\u7ade\u8d5b/\u96c6\u521b\u8d5b/_test/offical-demo",
+        "file": "readerDemo.cpp"
+    }
+]

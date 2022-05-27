@@ -1,0 +1,14 @@
+[
+    {
+        "arguments": [
+            "g++",
+            "-c",
+            "-I../wave/include",
+            "-o",
+            "test-demo1",
+            "demo1.cpp"
+        ],
+        "directory": "/home/jcs/jcs_project/demo1",
+        "file": "demo1.cpp"
+    }
+]
