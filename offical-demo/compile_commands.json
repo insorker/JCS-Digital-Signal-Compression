@@ -1,0 +1,28 @@
+[
+    {
+        "arguments": [
+            "g++",
+            "-c",
+            "-I../competitionLib/include",
+            "-std=c++11",
+            "-o",
+            "test-out",
+            "ouputDemo.cpp"
+        ],
+        "directory": "/home/jcs/JCS-Digital-Signal-Compression/offical-demo",
+        "file": "ouputDemo.cpp"
+    },
+    {
+        "arguments": [
+            "g++",
+            "-c",
+            "-I../competitionLib/include",
+            "-std=c++11",
+            "-o",
+            "test-in",
+            "readerDemo.cpp"
+        ],
+        "directory": "/home/jcs/JCS-Digital-Signal-Compression/offical-demo",
+        "file": "readerDemo.cpp"
+    }
+]

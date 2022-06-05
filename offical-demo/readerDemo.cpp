@@ -139,6 +139,8 @@ int main(int argc, const char** argv) {
     }
   }
   finish = clock();
+
+  while (1);
   if (pOut) {
     std::cout<< "ReadAndOutTime: " << (finish - start) / CLOCKS_PER_SEC << std::endl;
     fclose(pOut);
