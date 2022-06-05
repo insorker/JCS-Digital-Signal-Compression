@@ -26,7 +26,7 @@ void VCData::add(std::string vcdata)
 		addValue(vcdata.substr(1, pos - 1));
 	}
 	// single digit
-	else {
+	else if (std::isdigit(vcdata[0])) {
 #if TESTVCData && 1
 		std::cout << vcdata.substr(1) << std::endl;
 		std::cout << vcdata.substr(0, 1) << std::endl;
