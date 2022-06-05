@@ -8,7 +8,8 @@ using namespace std;
 
 void help()
 {
-	cout << "help" << endl;
+	cout << "输入格式1 输出所有信号：[.vcd文件名]" << endl;
+	cout << "输入格式2 输出部分信号：[.vcd文件名] [部分信号文件]" << endl;
 }
 
 int main(int argc, char **argv)

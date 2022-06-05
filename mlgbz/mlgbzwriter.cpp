@@ -83,7 +83,7 @@ void MlgbzWriter::writeVCData()
 
 		while (std::getline(_fpvcd, line), line[0] != '#') {
 			writeEnd();
-			bzzert(0, "time error");
+			bzzert(0, "unknown time error");
 		}
 	}
 }
