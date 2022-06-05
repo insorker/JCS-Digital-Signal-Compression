@@ -1,7 +1,9 @@
 # 集创赛文件夹
 
-> data: vcd文件
+wavedata: vcd文件位置
 
-> offical-demo: 官方示例
+competitionLib: 官方接口
 
-> wave: 官方接口
+offical-demo: 官方示例
+
+mlgbz: 源程序位置
